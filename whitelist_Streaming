@@ -1,0 +1,112 @@
+# Combined streaming whitelist - AdGuard Home custom filtering rules (Germany-optimized)
+# Services: Disney+ (incl. Hotstar), Netflix, Prime Video, MagentaTV (Deutsche Telekom), Joyn, RTL, plus German ISP/region helpers
+# Import into AdGuard Home -> Filters -> Custom filtering rules
+# Generated: 2025-10-26 by mgsnetwork
+
+@@||disneyplus.com^
+@@||disneyplus.net^
+@@||disney.com^
+@@||dssott.com^
+@@||bamgrid.com^
+@@||bamgrid.net^
+@@||bamtech.com^
+@@||bamtech.tv^
+@@||hotstar.com^
+@@||hotstar.in^
+@@||hotstar.co^
+@@||disneyid.com^
+@@||disneyidapi.com^
+@@||accounts.disney.com^
+@@||identity.disney.com^
+
+@@||netflix.com^
+@@||netflix.net^
+@@||nflximg.net^
+@@||nflxvideo.net^
+@@||nflxext.com^
+@@||nflxso.net^
+@@||nrm.net^
+
+@@||primevideo.com^
+@@||amazonvideo.com^
+@@||amazon.com^
+@@||amazon.de^
+@@||imdb.com^
+@@||aws.amazon.com^
+@@||amazonaws.com^
+@@||s3.amazonaws.com^
+
+@@||magenta.tv^
+@@||magentatv.de^
+@@||magentatv.com^
+@@||telekom.de^
+@@||t-mobile.com^
+@@||t-online.de^
+
+# Joyn (ProSiebenSat.1 / Discovery)
+@@||joyn.de^
+@@||joyn.com^
+@@||joynplus.de^
+@@||tvnow.de^
+
+# RTL / RTL+ (RTL Deutschland)
+@@||rtl.de^
+@@||rtlplus.de^
+@@||rtlnow.de^
+@@||tvnow.de^
+
+# ProSiebenSat.1 / Discovery related (Germany)
+@@||prosiebensat1.de^
+@@||prosiebensat1.com^
+@@||discoveryplus.com^
+@@||discovery.com^
+
+# German ISP / region helper domains (broad parent domains to cover ISP-specific resources)
+@@||vodafone.de^
+@@||unitymedia.de^
+@@||deutschetelekom.de^
+@@||telekom.de^
+@@||t-online.de^
+
+# Common CDN / cloud providers (critical for delivery & regional caches)
+@@||akamaized.net^
+@@||akamaitech.net^
+@@||akamaihd.net^
+@@||akamaiedge.net^
+@@||akamaitechnologies.com^
+@@||edgesuite.net^
+@@||edgekey.net^
+@@||llnwd.net^
+@@||edgecastcdn.net^
+@@||fastly.net^
+@@||fastlylb.net^
+@@||cloudfront.net^
+@@||amazonaws.com^
+@@||s3.amazonaws.com^
+@@||googlevideo.com^
+@@||gstatic.com^
+@@||azureedge.net^
+@@||microsoft.com^
+@@||netdna-ssl.com^
+@@||cdn77.net^
+@@||cachefly.net^
+@@||cdn.jsdelivr.net^
+@@||cloudflare.com^
+@@||cdn.cloudflare.net^
+
+# Video delivery helpers & analytics (some required for app health & playback)
+@@||videodelivery.net^
+@@||akamaiplay.net^
+@@||akamaistatic.net^
+@@||akamaipublisher.net^
+@@||newrelic.com^
+@@||nr-data.net^
+
+# DRM / License-related (broad coverage; providers sometimes host license endpoints on CDN domains above)
+@@||google.com^
+@@||microsoft.com^
+@@||playready.microsoft.com^
+
+# Optional / staging (keep disabled unless needed)
+@@||akamaiedge-staging.net^
+@@||akamaized-staging.net^
