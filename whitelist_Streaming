@@ -2,6 +2,9 @@
 # Services: Disney+ (incl. Hotstar), Netflix, Prime Video, MagentaTV (Deutsche Telekom), Joyn, RTL, plus German ISP/region helpers
 # Import into AdGuard Home -> Filters -> Custom filtering rules
 # Generated: 2025-10-26 by mgsnetwork
+# For whitelisting domains in AdGuard Home use 
+# @@||domain^ (no $important) first. 
+# Only add $important if you see a rule conflict where that exception isn't being applied and you know other rules have $important or you suspect priority issues.
 
 @@||disneyplus.com^
 @@||disneyplus.net^
