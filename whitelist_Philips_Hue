@@ -1,13 +1,15 @@
-
-data.meethue.com
-dcp.dc1.philips.com
-diag.meethue.com
-diagnostics.meethue.com
-fds.dc1.philips.com
-mqtt.2030.ltsapis.goog
-provision.meethue.com
-www.ecdinterface.philips.com
-www.philips-hue.com
-www.signify.com
-www2.meethue.com
-mqtt.2030.ltsapis.goog
+! Philips Hue allowlist — Adblock (AdGuard Home / Adblock Plus) exception rules
+! Generated for: mgsnetwork
+! Usage: import this as a custom filter in AdGuard Home or add to your Adblock-style rule set.
+!
+@@||data.meethue.com^
+@@||dcp.dc1.philips.com^
+@@||diag.meethue.com^
+@@||diagnostics.meethue.com^
+@@||fds.dc1.philips.com^
+@@||mqtt.2030.ltsapis.goog^
+@@||provision.meethue.com^
+@@||www.ecdinterface.philips.com^
+@@||www.philips-hue.com^
+@@||www.signify.com^
+@@||www2.meethue.com^
