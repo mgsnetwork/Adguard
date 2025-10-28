@@ -1,1 +1,34 @@
+# AdGuard Home — Conservative allowlist for Envertech inverter
+# One domain per line. Monitor AdGuard Home Query Log and add exact hostnames if needed.
 
+# Envertech main domains and common subdomains
+.envertech.com
+*.envertech.com
+.envertech.net
+*.envertech.net
+portal.envertech.com
+api.envertech.com
+cloud.envertech.com
+telemetry.envertech.com
+update.envertech.com
+sync.envertech.com
+firmware.envertech.com
+
+# Time / NTP services commonly required by IoT devices
+pool.ntp.org
+time.google.com
+time.cloudflare.com
+
+# Certificate / ACME
+acme-v02.api.letsencrypt.org
+letsencrypt.org
+
+# Storage / CDN (conservative explicit entries)
+s3.amazonaws.com
+*.s3.amazonaws.com
+*.cloudfront.net
+
+# Notes:
+# - Prefer adding exact hostnames from Query Log instead of broad wildcards.
+# - If the device needs regional cloud hosts, add only the exact hostnames you observe.
+# - After applying this allowlist, watch the Query Log and add any required domains that are blocked.
