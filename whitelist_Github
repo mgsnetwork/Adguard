@@ -1,1 +1,74 @@
+! Recommended GitHub whitelist for AdGuard Home (Adblock/AdGuard filter format)
+! Generated: 2025-10-28
+! Purpose: allow GitHub core services, raw assets, avatars, pages, packages and Actions assets
+! Import this file into AdGuard Home as a custom filtering list (AdBlock format).
 
+! --- Core domains (web UI, git operations, API) ---
+@@||github.com^
+@@||api.github.com^
+@@||uploads.github.com^
+@@||codeload.github.com^
+@@||nodeload.github.com^
+
+! --- Raw files, static assets and user images ---
+@@||githubusercontent.com^
+@@||raw.githubusercontent.com^
+@@||user-images.githubusercontent.com^
+@@||avatars.githubusercontent.com^
+@@||camo.githubusercontent.com^
+
+! --- Gists and Pages ---
+@@||gist.github.com^
+@@||github.io^
+@@||pages.github.com^
+
+! --- CDNs, asset hosts and caches used by GitHub ---
+@@||assets-cdn.github.com^
+@@||assets.github.com^
+@@||github.map.fastly.net^
+
+! --- GitHub Actions and related runner assets ---
+@@||actions.githubusercontent.com^
+
+! --- Packages & registries (containers, npm, maven, etc.) ---
+@@||ghcr.io^
+@@||docker.pkg.github.com^
+@@||npm.pkg.github.com^
+@@||maven.pkg.github.com^
+
+! --- Status and telemetry / auxiliary domains ---
+@@||githubstatus.com^
+@@||status.github.com^
+
+! Notes:
+! - This file is written in Adblock/AdGuard filter exception format (lines beginning with "@@" are exceptions).
+! - Exception rules here unblock the listed domains and their subdomains (the "||domain^" pattern).
+! - Import into AdGuard Home: Settings → Filters → "Add custom filtering list" → paste the raw contents or point to a hosted URL.
+! - If you prefer Hosts format (one domain per line), use the Hosts-style section below.
+
+! --- Optional: Hosts-style whitelist (for Hosts import) ---
+! Remove "!" characters to use this section as a plain hosts-style domain list.
+! Example import path in AdGuard Home: Filters → Add custom filtering list → choose "Hosts" format.
+# github.com
+# api.github.com
+# uploads.github.com
+# codeload.github.com
+# nodeload.github.com
+# githubusercontent.com
+# raw.githubusercontent.com
+# user-images.githubusercontent.com
+# avatars.githubusercontent.com
+# camo.githubusercontent.com
+# gist.github.com
+# github.io
+# pages.github.com
+# assets-cdn.github.com
+# assets.github.com
+# github.map.fastly.net
+# actions.githubusercontent.com
+# ghcr.io
+# docker.pkg.github.com
+# npm.pkg.github.com
+# maven.pkg.github.com
+# githubstatus.com
+# status.github.com
