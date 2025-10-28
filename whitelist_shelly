@@ -7,35 +7,35 @@
 # - Review these entries against your network logs / device console and add any additional vendor endpoints you find.
 #
 # === AdGuard filter-style rules (recommended for filter lists) ===
-||shelly.cloud^
-||connect.shelly.cloud^
-||api.shelly.cloud^
-||mqtt.shelly.cloud^
-||ota.shelly.cloud^
-||updates.shelly.cloud^
-||firmware.shelly.cloud^
-||allterco.com^
-||allterco.eu^
-||shelly-.*.shelly.cloud^
-||eu1.shelly.cloud^
-||us1.shelly.cloud^
-||shelly-device.*^
+@@||shelly.cloud^
+@@||connect.shelly.cloud^
+@@||api.shelly.cloud^
+@@||mqtt.shelly.cloud^
+@@||ota.shelly.cloud^
+@@||updates.shelly.cloud^
+@@||firmware.shelly.cloud^
+@@||allterco.com^
+@@||allterco.eu^
+@@||shelly-.*.shelly.cloud^
+@@||eu1.shelly.cloud^
+@@||us1.shelly.cloud^
+@@||shelly-device.*^
 # Generic allow for shelly subdomains (covers most subdomains)
-||shelly.*^
+@@||shelly.*^
 
 # === Plain DNS whitelist (one domain per line) ===
 # Use this block if you want to import into AdGuard Home -> DNS settings -> Whitelist
-shelly.cloud
-connect.shelly.cloud
-api.shelly.cloud
-mqtt.shelly.cloud
-ota.shelly.cloud
-updates.shelly.cloud
-firmware.shelly.cloud
-allterco.com
-allterco.eu
-eu1.shelly.cloud
-us1.shelly.cloud
+@@||shelly.cloud
+@@||connect.shelly.cloud
+@@||api.shelly.cloud
+@@||mqtt.shelly.cloud
+@@||ota.shelly.cloud
+@@||updates.shelly.cloud
+@@||firmware.shelly.cloud
+@@||allterco.com
+@@||allterco.eu
+@@||eu1.shelly.cloud
+@@||us1.shelly.cloud
 
 # === Tips ===
 # - If you use strict blocking (e.g., blocklists that block many third-party CDNs), check device logs for any other hosts (CDNs or update servers)
