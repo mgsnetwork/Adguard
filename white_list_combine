@@ -2,6 +2,7 @@
 # ✅ AdGuard Home Allowlist (Whitelist)
 # Services: Microsoft, Philips Hue, YouTube, Netflix, Joyn, RTL+, Disney+, Shelly, GitHub, Envertech
 # Format: plain domains (AdGuard Home syntax)
+# Use this block if you want to import into AdGuard Home -> DNS settings -> Whitelist
 # ==========================================
 
 # --- Microsoft (Windows / Office / Xbox / Teams / OneDrive / Updates) ---
