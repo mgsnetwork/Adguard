@@ -1,1 +1,44 @@
+# Shelly DNS whitelist (AdGuard Home style)
+# Purpose: allow Shelly cloud services and update/mqtt endpoints so Shelly devices and apps keep working.
+# Notes:
+# - Top section: AdGuard / AdGuard Home filter syntax (use as a filter list or "Allowlist" filter)
+#   Use these rules in AdGuard Home under Filters -> Custom filtering rules (or import as a filter list).
+# - Bottom section: plain domain list (one domain per line) — use this for AdGuard Home DNS -> Whitelist import.
+# - Review these entries against your network logs / device console and add any additional vendor endpoints you find.
+#
+# === AdGuard filter-style rules (recommended for filter lists) ===
+||shelly.cloud^
+||connect.shelly.cloud^
+||api.shelly.cloud^
+||mqtt.shelly.cloud^
+||ota.shelly.cloud^
+||updates.shelly.cloud^
+||firmware.shelly.cloud^
+||allterco.com^
+||allterco.eu^
+||shelly-.*.shelly.cloud^
+||eu1.shelly.cloud^
+||us1.shelly.cloud^
+||shelly-device.*^
+# Generic allow for shelly subdomains (covers most subdomains)
+||shelly.*^
 
+# === Plain DNS whitelist (one domain per line) ===
+# Use this block if you want to import into AdGuard Home -> DNS settings -> Whitelist
+shelly.cloud
+connect.shelly.cloud
+api.shelly.cloud
+mqtt.shelly.cloud
+ota.shelly.cloud
+updates.shelly.cloud
+firmware.shelly.cloud
+allterco.com
+allterco.eu
+eu1.shelly.cloud
+us1.shelly.cloud
+
+# === Tips ===
+# - If you use strict blocking (e.g., blocklists that block many third-party CDNs), check device logs for any other hosts (CDNs or update servers)
+#   the devices contact (e.g., raw.githubusercontent.com, cdn.*) and add them only if necessary and trusted.
+# - If your Shelly devices use local LAN discovery, keep mDNS/UPnP allowed on the LAN; this whitelist only affects DNS resolution.
+# - If you'd like, I can convert this into a single-line host file, an AdGuard Home uploaded filter list, or push it to your repo.
