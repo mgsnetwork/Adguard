@@ -1,0 +1,33 @@
+# AdGuard Home — Conservative allowlist for Hoymiles inverter
+# One domain per line. Monitor AdGuard Home Query Log and add exact hostnames if needed.
+
+.hoymiles.com
+*.hoymiles.com
+.hoymiles.net
+*.hoymiles.net
+portal.hoymiles.com
+api.hoymiles.com
+app.hoymiles.com
+cloud.hoymiles.com
+telemetry.hoymiles.com
+update.hoymiles.com
+firmware.hoymiles.com
+data.hoymiles.com
+
+# Time / NTP services
+pool.ntp.org
+time.google.com
+time.cloudflare.com
+
+# Certificate / ACME
+acme-v02.api.letsencrypt.org
+letsencrypt.org
+
+# Storage / CDN
+s3.amazonaws.com
+*.s3.amazonaws.com
+*.cloudfront.net
+
+# Notes:
+# - Prefer adding exact hostnames from Query Log instead of broad wildcards.
+# - After applying this allowlist, watch the Query Log and add any required domains that are blocked.
