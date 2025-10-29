@@ -113,3 +113,6 @@
 # Optional / staging (keep disabled unless needed)
 @@||akamaiedge-staging.net^
 @@||akamaized-staging.net^
+
+# new 29.10.2025
+@@||cws.conviva.com^
