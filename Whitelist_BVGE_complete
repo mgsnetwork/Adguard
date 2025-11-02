@@ -1,0 +1,15 @@
+# Whitelist false Positive, which are needed to surf on clissic Sites
+# Created 02.11.2025
+# Created by Mario
+
+# Pipedrive
+@@||pipedriveassets.com^$important
+@@||nexus-websocket-a.intercom.io^$important
+@@||cdn.segment.com^$important
+@@||msedge.net^$important
+@@||in.appcenter.ms^^$important
+@@||footprintdns.com^$important
+@@||web-sdk-eu.aptrinsic.com^
+
+#Anydesk Service
+@@||net.anydesk.com^
