@@ -1,0 +1,50 @@
+# Whitelist false Positive, which are needed to surf on clissic Sites
+# Created 02.11.2025
+# Created by Mario
+
+
+
+
+
+# Pipedrive
+@@||pipedriveassets.com^$important
+@@||nexus-websocket-a.intercom.io^$important
+@@||cdn.segment.com^$important
+@@||msedge.net^$important
+@@||in.appcenter.ms^^$important
+@@||footprintdns.com^$important
+@@||web-sdk-eu.aptrinsic.com^
+
+# Disney+
+@@||aax.amazon-adsystem.com^$important
+@@||eu-central-1.ads.digital.disneyadvertising.com^
+@@||eu-west-1.ads.digital.disneyadvertising.com^
+@@||g*-vod-us-cmaf-prd-mc.cdn.peacocktv.com^
+@@||platform.cid.samba.tv^
+@@||region1.app-measurement.com^
+@@||secure-eu.nmrodam.com^
+@@||sdkapi.dsp-api.moloco.com^$important
+@@||telemetry.sdk.inmobi.com^$important
+@@||uaid.nmrodam.com^
+@@||vpe-static.bamgrid.com^
+
+
+#Telekom
+@@||tags-eu.tiqcdn.com^
+#@@||c.amazon-adsystem.com^
+#@@||pubads.g.doubleclick.net^
+#@@||event-portal.dailyinnovation.biz^
+#@@||config.inmobi.com^
+
+#Anydesk Service
+@@||net.anydesk.com^
+
+#Sonstiges
+@@||gutefrage.net^
+
+# Notebooksbilliger
+@@||firebaselogging.googleapis.com^
+# Notebooksbilliger optional
+#@@||content-loader.com^
+#@@||gvt2.com^
+
