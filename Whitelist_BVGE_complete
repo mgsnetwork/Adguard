@@ -3,12 +3,12 @@
 # Created by Mario
 
 # Pipedrive
-@@||pipedriveassets.com^$important
-@@||nexus-websocket-a.intercom.io^$important
-@@||cdn.segment.com^$important
-@@||msedge.net^$important
-@@||in.appcenter.ms^^$important
-@@||footprintdns.com^$important
+@@||pipedriveassets.com^
+@@||nexus-websocket-a.intercom.io^
+@@||cdn.segment.com^
+@@||msedge.net^
+@@||in.appcenter.ms^
+@@||footprintdns.com^
 @@||web-sdk-eu.aptrinsic.com^
 
 #Anydesk Service
