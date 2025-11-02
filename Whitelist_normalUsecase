@@ -27,7 +27,6 @@
 
 # Notebooksbilliger
 @@||firebaselogging.googleapis.com^
-# Notebooksbilliger optional
-#@@||content-loader.com^
-#@@||gvt2.com^
+@@||content-loader.com^
+@@||gvt2.com^
 
