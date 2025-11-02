@@ -6,6 +6,7 @@
 # @@||domain^ (no $important) first. 
 # Only add $important if you see a rule conflict where that exception isn't being applied and you know other rules have $important or you suspect priority issues.
 
+# Disney+
 @@||disneyplus.com^
 @@||disneyplus.net^
 @@||disney.com^
@@ -21,7 +22,27 @@
 @@||disneyidapi.com^
 @@||accounts.disney.com^
 @@||identity.disney.com^
+# new 29.10.2025
+@@||cws.conviva.com^
+@@||bugs.firebat.prime-video.amazon.dev^
+# new 30.10.2025
+@@||global.telemetry.insights.video.a2z.com^
+@@||disney.my.sentry.io^$important
+@@||sdk.iad-03.braze.com^$important
+@@||devices.a2z.com^$important
+@@||aax.amazon-adsystem.com^$important
+@@||sdkapi.dsp-api.moloco.com^$important
+@@||telemetry.sdk.inmobi.com^$important
+#new 02.11.2025
+@@||eu-central-1.ads.digital.disneyadvertising.com^
+@@||eu-west-1.ads.digital.disneyadvertising.com^
+@@||g*-vod-us-cmaf-prd-mc.cdn.peacocktv.com^
+@@||platform.cid.samba.tv^
+@@||region1.app-measurement.com^
+@@||secure-eu.nmrodam.com^
+@@||uaid.nmrodam.com^
 
+# Netflix
 @@||netflix.com^
 @@||netflix.net^
 @@||nflximg.net^
@@ -30,6 +51,7 @@
 @@||nflxso.net^
 @@||nrm.net^
 
+# Amazon Prime
 @@||primevideo.com^
 @@||amazonvideo.com^
 @@||amazon.com^
@@ -39,6 +61,7 @@
 @@||amazonaws.com^
 @@||s3.amazonaws.com^
 
+# MagentaTV
 @@||magenta.tv^
 @@||magentatv.de^
 @@||magentatv.com^
@@ -114,16 +137,7 @@
 @@||akamaiedge-staging.net^
 @@||akamaized-staging.net^
 
-# new 29.10.2025
-# Improved functionality of Disney+
-@@||cws.conviva.com^
-@@||bugs.firebat.prime-video.amazon.dev^
-# new 30.10.2025
-@@||global.telemetry.insights.video.a2z.com^
-@@||disney.my.sentry.io^$important
-@@||sdk.iad-03.braze.com^$important
-@@||devices.a2z.com^$important
-@@||aax.amazon-adsystem.com^$important
-@@||sdkapi.dsp-api.moloco.com^$important
-@@||telemetry.sdk.inmobi.com^$important
+
+
+
 
