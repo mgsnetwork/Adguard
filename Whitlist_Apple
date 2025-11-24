@@ -1,0 +1,128 @@
+# ===========================
+#  APPLE — WILDCARD WHITELIST
+#  Full exhaustive allowlisted domains
+# ===========================
+
+# --- Core Apple Domains ---
+@@||apple.com^
+@@||icloud.com^
+@@||icloud-content.com^
+@@||apple-cloudkit.com^
+@@||akadns.net^
+@@||apple-dns.net^
+
+# --- Apple ID & Authentication ---
+@@||appleid.apple.com^
+@@||id.apple.com^
+@@||iforgot.apple.com^
+@@||gsa.apple.com^
+
+# --- iCloud (ALL SERVICES) ---
+@@||icloud.com^
+@@||*.icloud.com^
+@@||icloud-content.com^
+@@||*.icloud-content.com^
+@@||apple-cloudkit.com^
+@@||*.apple-cloudkit.com^
+@@||storage.icloud.com^
+@@||keyvalueservice.icloud.com^
+@@||ckdatabase.icloud.com^
+@@||ckdevice.icloud.com^
+@@||setup.icloud.com^
+@@||ckdatabasews.icloud.com^
+@@||*.icloud.com.akadns.net^
+
+# --- iMessage & FaceTime ---
+@@||push.apple.com^
+@@||courier.push.apple.com^
+@@||ess.apple.com^
+@@||static.ess.apple.com^
+@@||gateway.ess.apple.com^
+
+# --- App Store / iTunes / Apple Music ---
+@@||itunes.apple.com^
+@@||apps.apple.com^
+@@||appstore.com^
+@@||appstoreconnect.apple.com^
+@@||buy.itunes.apple.com^
+@@||se.itunes.apple.com^
+@@||su.itunes.apple.com^
+@@||bag.itunes.apple.com^
+@@||music.apple.com^
+@@||aod.itunes.apple.com^
+@@||play.itunes.apple.com^
+@@||xp.apple.com^
+
+# --- Software Updates (iOS / macOS) ---
+@@||mesu.apple.com^
+@@||swscan.apple.com^
+@@||swcdn.apple.com^
+@@||swdownload.apple.com^
+@@||updates-http.cdn-apple.com^
+@@||appldnld.apple.com^
+
+# --- Activation / Device Setup ---
+@@||albert.apple.com^
+@@||gs.apple.com^
+@@||gsconfig.apple.com^
+@@||gsp12-ssl.apple.com^
+@@||gsa.apple.com^
+
+# --- Apple Push Notifications ---
+@@||api.push.apple.com^
+@@||courier.push.apple.com^
+@@||push.apple.com^
+@@||push-apple.com.akadns.net^
+
+# --- Siri (ALL REGIONS) ---
+@@||siri.apple.com^
+@@||guzzoni.apple.com^
+@@||vortex-suw.apple.com^
+@@||siri-cdn.appstore.apple.com^
+
+# --- Apple Maps ---
+@@||ls.apple.com^
+@@||configuration.ls.apple.com^
+@@||gspe21-ssl.ls.apple.com^
+@@||gspe35-ssl.ls.apple.com^
+
+# --- Find My (FMIP) ---
+@@||fmip.apple.com^
+@@||fmip.icloud.com^
+@@||fmipmobile.icloud.com^
+
+# --- Apple TV / Apple TV+ ---
+@@||tv.apple.com^
+@@||hls.itunes.apple.com^
+@@||uts-api.apple.com^
+@@||uts.apple.com^
+
+# --- Safari Safe Browsing / Privacy (optional but recommended) ---
+@@||safebrowsing.apple^
+@@||safeapp.apple.com^
+@@||gdmf.apple.com^
+
+# --- Diagnostics / Telemetry (required for updates) ---
+@@||crashlytics.icloud.com^
+@@||metrics.apple.com^
+@@||gdmf.apple.com^
+
+# --- Time Sync ---
+@@||time.apple.com^
+@@||time-ios.apple.com^
+
+# --- MDM / Device Management (only if using MDM) ---
+@@||mdmenrollment.apple.com^
+@@||deviceenrollment.apple.com^
+@@||mdm.apple.com^
+
+# --- CDN / Akamai / Edge Apple Uses ---
+@@||cdn-apple.com^
+@@||cdn.apple.com^
+@@||akadns.net^
+@@||edgesuite.net^
+@@||edgekey.net^
+
+# ===========================
+# END OF LIST
+# ===========================
